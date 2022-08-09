@@ -1,0 +1,12 @@
+/snap/clion/203/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/203/bin/ninja/linux/ninja -DCMAKE_PREFIX_PATH=~/source/yp-cpp/s14/4.protobuf/2.protobuf_install/protobuf_package -G Ninja -S /home/xu/source/yp-phonebook/phonebook -B /home/xu/source/yp-phonebook/phonebook/cmake-build-debug
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Protobuf: optimized;/home/xu/source/yp-cpp/s14/4.protobuf/2.protobuf_install/protobuf_package/lib/libprotobuf.a;debug;/home/xu/source/yp-cpp/s14/4.protobuf/2.protobuf_install/protobuf_package/lib/libprotobufd.a (found version "3.21.4") 
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xu/source/yp-phonebook/phonebook/cmake-build-debug

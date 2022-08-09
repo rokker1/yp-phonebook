@@ -1,0 +1,17 @@
+# ninja log v5
+0	1163	1660063392294314650	CMakeFiles/phonebook.dir/main.cpp.o	bd92bd2f3dac42a7
+1	5	1660063262387291574	/home/xu/source/yp-cpp/s14/4.protobuf/5.protobuf_api/phonebook/cmake-build-debug/contact.pb.h	11ddaa02b8e97bda
+1	5	1660063262387291574	/home/xu/source/yp-cpp/s14/4.protobuf/5.protobuf_api/phonebook/cmake-build-debug/contact.pb.cc	11ddaa02b8e97bda
+1164	1673	1660063392798341814	phonebook	6d6fa1bf38a801cb
+1	5	1660063262387291574	contact.pb.cc	11ddaa02b8e97bda
+1	5	1660063262387291574	contact.pb.h	11ddaa02b8e97bda
+1	929	1660063351116093301	CMakeFiles/phonebook.dir/phone_book.cpp.o	8e25c09085efb0fa
+5	974	1660063263355344085	CMakeFiles/phonebook.dir/contact.pb.cc.o	d07ed773b535d5cb
+1	5	1660064068220257621	contact.pb.h	ebffb3fa435f3bd1
+1	5	1660064068220257621	contact.pb.cc	ebffb3fa435f3bd1
+1	5	1660064068220257621	/home/xu/source/yp-phonebook/phonebook/cmake-build-debug/contact.pb.h	ebffb3fa435f3bd1
+1	5	1660064068220257621	/home/xu/source/yp-phonebook/phonebook/cmake-build-debug/contact.pb.cc	ebffb3fa435f3bd1
+6	979	1660064069192323759	CMakeFiles/phonebook.dir/contact.pb.cc.o	9bef1740d02e6498
+6	995	1660064069208324848	CMakeFiles/phonebook.dir/phone_book.cpp.o	d59b98abe2c26567
+5	1194	1660064069408338452	CMakeFiles/phonebook.dir/main.cpp.o	84b1733ab0d74dec
+1194	1703	1660064069912372736	phonebook	6d6fa1bf38a801cb
