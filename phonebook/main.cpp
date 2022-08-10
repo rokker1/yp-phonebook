@@ -10,11 +10,11 @@ using namespace std;
 
 void TestSerialization() {
     const PhoneBook ab({
-        {"Ivan Ivanov"s, Date{1980, 1, 13}, {"+79850685521"s}},
-        {"Margarita Petrova"s, Date{1989, 4, 23}, {"+79998887766"s, "+71112223344"s}},
-        {"Just Birthday"s, Date{1989, 4, 23}, {}},
-        {"No Birthday"s, std::nullopt, {"+7-4862-77-25-64"s}},
-    });
+                               {"Ivan Ivanov"s, Date{1980, 1, 13}, {"+79850685521"s}},
+                               {"Margarita Petrova"s, Date{1989, 4, 23}, {"+79998887766"s, "+71112223344"s}},
+                               {"Just Birthday"s, Date{1989, 4, 23}, {}},
+                               {"No Birthday"s, std::nullopt, {"+7-4862-77-25-64"s}},
+                       });
 
     ostringstream output(std::ios::binary);
     ab.SaveTo(output);
@@ -118,15 +118,15 @@ void TestDeserialization() {
 
 void TestFindNameByPrefix() {
     PhoneBook book({
-        {"Vasiliy Petrov"s, std::nullopt, {}},
-        {"Ivan Ivanov"s, std::nullopt, {}},
-        {"Vasiliy Ivanov"s, std::nullopt, {}},
-        {"Vasilisa Kuznetsova"s, std::nullopt, {}},
-        {"Ivan Petrov"s, std::nullopt, {}},
-        {"Vassisualiy Lokhankin"s, std::nullopt, {}},
-        {"Ivan Vasiliev"s, std::nullopt, {}},
-        {""s, std::nullopt, {}},
-    });
+                           {"Vasiliy Petrov"s, std::nullopt, {}},
+                           {"Ivan Ivanov"s, std::nullopt, {}},
+                           {"Vasiliy Ivanov"s, std::nullopt, {}},
+                           {"Vasilisa Kuznetsova"s, std::nullopt, {}},
+                           {"Ivan Petrov"s, std::nullopt, {}},
+                           {"Vassisualiy Lokhankin"s, std::nullopt, {}},
+                           {"Ivan Vasiliev"s, std::nullopt, {}},
+                           {""s, std::nullopt, {}},
+                   });
 
     auto get_names = [](PhoneBook::ContactRange range) {
         vector<string> result;
@@ -153,16 +153,16 @@ void TestFindNameByPrefix() {
 
 void TestFindNameByPrefix2() {
     PhoneBook book({
-        {"a"s, std::nullopt, {}},
-        {"aaaa"s, std::nullopt, {}},
-        {"aabc"s, std::nullopt, {}},
-        {"aabccc"s, std::nullopt, {}},
-        {"aabcbc"s, std::nullopt, {}},
-        {"aeca"s, std::nullopt, {}},
-        {"aeca"s, std::nullopt, {}},
-        {"aefg"s, std::nullopt, {}},
-        {"aq"s, std::nullopt, {}},
-    });
+                           {"a"s, std::nullopt, {}},
+                           {"aaaa"s, std::nullopt, {}},
+                           {"aabc"s, std::nullopt, {}},
+                           {"aabccc"s, std::nullopt, {}},
+                           {"aabcbc"s, std::nullopt, {}},
+                           {"aeca"s, std::nullopt, {}},
+                           {"aeca"s, std::nullopt, {}},
+                           {"aefg"s, std::nullopt, {}},
+                           {"aq"s, std::nullopt, {}},
+                   });
 
     auto get_names = [](PhoneBook::ContactRange range) {
         vector<string> result;
@@ -187,8 +187,8 @@ void TestFindNameByPrefix2() {
 }
 
 int main() {
-//    TestFindNameByPrefix();
-//    TestFindNameByPrefix2();
+    TestFindNameByPrefix();
+    TestFindNameByPrefix2();
     TestSerialization();
     TestDeserialization();
 }

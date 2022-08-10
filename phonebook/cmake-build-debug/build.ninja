@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/xu/source/yp-phonebook/phonebook/cmake-build-debug/
+cmake_ninja_workdir = /home/alexander/source/yp-phonebook/phonebook/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target phonebook
 
@@ -49,28 +49,28 @@ cmake_ninja_workdir = /home/xu/source/yp-phonebook/phonebook/cmake-build-debug/
 
 build cmake_object_order_depends_target_phonebook: phony || contact.pb.cc contact.pb.h
 
-build CMakeFiles/phonebook.dir/contact.pb.cc.o: CXX_COMPILER__phonebook_Debug /home/xu/source/yp-phonebook/phonebook/cmake-build-debug/contact.pb.cc || cmake_object_order_depends_target_phonebook
+build CMakeFiles/phonebook.dir/contact.pb.cc.o: CXX_COMPILER__phonebook_Debug /home/alexander/source/yp-phonebook/phonebook/cmake-build-debug/contact.pb.cc || cmake_object_order_depends_target_phonebook
   DEP_FILE = CMakeFiles/phonebook.dir/contact.pb.cc.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/xu/source/yp-cpp/s14/4.protobuf/2.protobuf_install/protobuf_package/include -I/home/xu/source/yp-phonebook/phonebook/cmake-build-debug
+  INCLUDES = -I/home/alexander/source/yp-cpp/s14/4.protobuf/2.protobuf_install/protobuf_package/include -I/home/alexander/source/yp-phonebook/phonebook/cmake-build-debug
   OBJECT_DIR = CMakeFiles/phonebook.dir
   OBJECT_FILE_DIR = CMakeFiles/phonebook.dir
   TARGET_COMPILE_PDB = CMakeFiles/phonebook.dir/
   TARGET_PDB = phonebook.pdb
 
-build CMakeFiles/phonebook.dir/main.cpp.o: CXX_COMPILER__phonebook_Debug /home/xu/source/yp-phonebook/phonebook/main.cpp || cmake_object_order_depends_target_phonebook
+build CMakeFiles/phonebook.dir/main.cpp.o: CXX_COMPILER__phonebook_Debug /home/alexander/source/yp-phonebook/phonebook/main.cpp || cmake_object_order_depends_target_phonebook
   DEP_FILE = CMakeFiles/phonebook.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/xu/source/yp-cpp/s14/4.protobuf/2.protobuf_install/protobuf_package/include -I/home/xu/source/yp-phonebook/phonebook/cmake-build-debug
+  INCLUDES = -I/home/alexander/source/yp-cpp/s14/4.protobuf/2.protobuf_install/protobuf_package/include -I/home/alexander/source/yp-phonebook/phonebook/cmake-build-debug
   OBJECT_DIR = CMakeFiles/phonebook.dir
   OBJECT_FILE_DIR = CMakeFiles/phonebook.dir
   TARGET_COMPILE_PDB = CMakeFiles/phonebook.dir/
   TARGET_PDB = phonebook.pdb
 
-build CMakeFiles/phonebook.dir/phone_book.cpp.o: CXX_COMPILER__phonebook_Debug /home/xu/source/yp-phonebook/phonebook/phone_book.cpp || cmake_object_order_depends_target_phonebook
+build CMakeFiles/phonebook.dir/phone_book.cpp.o: CXX_COMPILER__phonebook_Debug /home/alexander/source/yp-phonebook/phonebook/phone_book.cpp || cmake_object_order_depends_target_phonebook
   DEP_FILE = CMakeFiles/phonebook.dir/phone_book.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/xu/source/yp-cpp/s14/4.protobuf/2.protobuf_install/protobuf_package/include -I/home/xu/source/yp-phonebook/phonebook/cmake-build-debug
+  INCLUDES = -I/home/alexander/source/yp-cpp/s14/4.protobuf/2.protobuf_install/protobuf_package/include -I/home/alexander/source/yp-phonebook/phonebook/cmake-build-debug
   OBJECT_DIR = CMakeFiles/phonebook.dir
   OBJECT_FILE_DIR = CMakeFiles/phonebook.dir
   TARGET_COMPILE_PDB = CMakeFiles/phonebook.dir/
@@ -84,9 +84,9 @@ build CMakeFiles/phonebook.dir/phone_book.cpp.o: CXX_COMPILER__phonebook_Debug /
 #############################################
 # Link the executable phonebook
 
-build phonebook: CXX_EXECUTABLE_LINKER__phonebook_Debug CMakeFiles/phonebook.dir/contact.pb.cc.o CMakeFiles/phonebook.dir/main.cpp.o CMakeFiles/phonebook.dir/phone_book.cpp.o | /home/xu/source/yp-cpp/s14/4.protobuf/2.protobuf_install/protobuf_package/lib/libprotobufd.a
+build phonebook: CXX_EXECUTABLE_LINKER__phonebook_Debug CMakeFiles/phonebook.dir/contact.pb.cc.o CMakeFiles/phonebook.dir/main.cpp.o CMakeFiles/phonebook.dir/phone_book.cpp.o | /home/alexander/source/yp-cpp/s14/4.protobuf/2.protobuf_install/protobuf_package/lib/libprotobufd.a
   FLAGS = -g
-  LINK_LIBRARIES = /home/xu/source/yp-cpp/s14/4.protobuf/2.protobuf_install/protobuf_package/lib/libprotobufd.a
+  LINK_LIBRARIES = /home/alexander/source/yp-cpp/s14/4.protobuf/2.protobuf_install/protobuf_package/lib/libprotobufd.a
   OBJECT_DIR = CMakeFiles/phonebook.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -99,7 +99,7 @@ build phonebook: CXX_EXECUTABLE_LINKER__phonebook_Debug CMakeFiles/phonebook.dir
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/xu/source/yp-phonebook/phonebook/cmake-build-debug && /snap/clion/203/bin/cmake/linux/bin/ccmake -S/home/xu/source/yp-phonebook/phonebook -B/home/xu/source/yp-phonebook/phonebook/cmake-build-debug
+  COMMAND = cd /home/alexander/source/yp-phonebook/phonebook/cmake-build-debug && /snap/clion/203/bin/cmake/linux/bin/ccmake -S/home/alexander/source/yp-phonebook/phonebook -B/home/alexander/source/yp-phonebook/phonebook/cmake-build-debug
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -111,7 +111,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/xu/source/yp-phonebook/phonebook/cmake-build-debug && /snap/clion/203/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/xu/source/yp-phonebook/phonebook -B/home/xu/source/yp-phonebook/phonebook/cmake-build-debug
+  COMMAND = cd /home/alexander/source/yp-phonebook/phonebook/cmake-build-debug && /snap/clion/203/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/alexander/source/yp-phonebook/phonebook -B/home/alexander/source/yp-phonebook/phonebook/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -122,8 +122,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Custom command for contact.pb.h
 
-build contact.pb.h contact.pb.cc | ${cmake_ninja_workdir}contact.pb.h ${cmake_ninja_workdir}contact.pb.cc: CUSTOM_COMMAND ../contact.proto /home/xu/source/yp-cpp/s14/4.protobuf/2.protobuf_install/protobuf_package/bin/protoc
-  COMMAND = cd /home/xu/source/yp-phonebook/phonebook/cmake-build-debug && /home/xu/source/yp-cpp/s14/4.protobuf/2.protobuf_install/protobuf_package/bin/protoc --cpp_out /home/xu/source/yp-phonebook/phonebook/cmake-build-debug -I /home/xu/source/yp-phonebook/phonebook /home/xu/source/yp-phonebook/phonebook/contact.proto
+build contact.pb.h contact.pb.cc | ${cmake_ninja_workdir}contact.pb.h ${cmake_ninja_workdir}contact.pb.cc: CUSTOM_COMMAND ../contact.proto /home/alexander/source/yp-cpp/s14/4.protobuf/2.protobuf_install/protobuf_package/bin/protoc
+  COMMAND = cd /home/alexander/source/yp-phonebook/phonebook/cmake-build-debug && /home/alexander/source/yp-cpp/s14/4.protobuf/2.protobuf_install/protobuf_package/bin/protoc --cpp_out /home/alexander/source/yp-phonebook/phonebook/cmake-build-debug -I /home/alexander/source/yp-phonebook/phonebook /home/alexander/source/yp-phonebook/phonebook/contact.proto
   DESC = Running cpp protocol buffer compiler on contact.proto
   restat = 1
 
@@ -136,7 +136,7 @@ build contact.pb.h contact.pb.cc | ${cmake_ninja_workdir}contact.pb.h ${cmake_ni
 # =============================================================================
 
 #############################################
-# Folder: /home/xu/source/yp-phonebook/phonebook/cmake-build-debug
+# Folder: /home/alexander/source/yp-phonebook/phonebook/cmake-build-debug
 
 build all: phony phonebook
 
